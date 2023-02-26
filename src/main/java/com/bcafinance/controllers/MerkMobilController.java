@@ -44,7 +44,7 @@ public class MerkMobilController {
 
 
     @GetMapping("/mobil/all")
-    public ResponseEntity<Object> findAllUserDTO() throws Exception {
+    public ResponseEntity<Object> findByMerk() throws Exception {
 
         List<MerkMobil> lsMobil = merkMobilService.findAllMerk();
 
